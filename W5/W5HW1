@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+     <meta charset="utf-8">
+     <title>中國文學欣賞</title>
+     <style>
+     
+     </style>
+</head>
+<body>
+   <header>
+     <h1>中國文學欣賞</h1>
+   </header>
+   <nav>
+   <ul class="nav">
+      <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">唐詩</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#">宋詞</a>
+     </li>
+     <li class="nav-item">
+      <a class="nav-link" href="#">元曲</a>
+       </li>
+      <li class="nav-item">
+      <a class="nav-link disabled">Disabled</a>
+     </li>
+   </ul>
+   </nav>
+<article>
+    <p>內容</P>
+</article>
+<footer>
+    <p><small>版權所有</small></p>
+</footer>
+</body>
+</html>
