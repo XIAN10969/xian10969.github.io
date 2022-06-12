@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">   
+        <title>409620039李紀嫻期末網站rewind</title>  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html"><img src="img/logo.png"></a></h1>
+            <nav>
+            <ul class="flex-nav">
+                <li><a href="index.html#profile">關於TIMEBAR</a></li>
+                <li><a href="index.html#position">空間分佈</a></li>
+                <li><a href="rewind.html">REWIND舞池</a></li>
+                <li><a href="pause.html">PAUSE吧台</a></li>
+                <li><a href="foward.html">FOWARD包廂</a></li>
+            </ul>
+        </nav>
+          </header>
+     <article id="pause"> 
+            <div class="inner">  
+             <h2>PAUSE吧台</h2>
+             <p>請問您想要喝什麼呢？這裡提供了飲品的菜單</p>
+             <p>決定好後請點選飲品，服務員將帶您前往相應的舞池</p>
+            </div>
+        </div><div style="border-width: 3px ; width: 150px; height: 30px ; padding: 5px; text-align: center; background-color:rgb(114, 136, 136);border-radius: 4px;margin: auto;" >
+            <a href="#drink" style="font-family:Microsoft JhengHei;color:rgb(255, 255, 255);text-decoration: none;" >開始點餐</a>
+        </div>
+     </article>
+     <article id="drink">
+         <div class="w3-content" style="max-width:800px;position:relative;margin: auto;">
+
+            <a href="rewind.html#f"><img class="mySlides" src="img/drink6.png" ></a>
+            <a href="rewind.html#a"><img class="mySlides" src="img/drink1.png" ></a>
+            <a href="rewind.html#b"><img class="mySlides" src="img/drink2.png" ></a>
+            <a href="rewind.html#c"><img class="mySlides" src="img/drink3.png" ></a>
+            <a href="rewind.html#d"> <img class="mySlides" src="img/drink4.png" ></a>
+            <a href="rewind.html#e"> <img class="mySlides" src="img/drink5.png" ></a>
+            
+            
+            <a class="w3-btn-floating" style="position:absolute;top:45%;left:0;color: aliceblue;" onclick="plusDivs(-1)" >❮❮</a>
+            <a class="w3-btn-floating" style="position:absolute;top:45%;right:0;color: aliceblue;" onclick="plusDivs(1)">❯❯</a>
+            
+            </div>
+            
+            <script>
+            var slideIndex = 1;showDivs(slideIndex);
+             function plusDivs(n) {showDivs(slideIndex += n);}
+             function showDivs(n) {var i;var x = document.getElementsByClassName("mySlides");if (n > x.length) {slideIndex = 1}    if (n < 1) {slideIndex = x.length} ;for (i = 0; i < x.length; i++) {x[i].style.display = "none";  }
+             x[slideIndex-1].style.display = "block";  }
+            </script>
+            
+            <div style="border-width: 3px ; width: 150px; height: 30px ; padding: 5px; text-align: center; background-color:rgb(114, 136, 136);border-radius: 4px;margin: auto;" >
+                <a href="rewind.html" style="font-family:Microsoft JhengHei;color:rgb(255, 255, 255);text-decoration: none;" >直接前往舞池</a>
+            </div>
+            <div style="height: 15px;"></div>
+            </div><div style="border-width: 3px ; width: 150px; height: 30px ; padding: 5px; text-align: center; background-color:rgb(114, 136, 136);border-radius: 4px;margin: auto;" >
+                <a href="foward.html" style="font-family:Microsoft JhengHei;color:rgb(255, 255, 255);text-decoration: none;" >直接前往包廂</a>
+            </div>
+        </article>
+
+
+            <img src="img/black.png">
+            <img src="img/black.png">
+            <p class="pagetop"><a style="text-decoration: none;color: rgb(114, 136, 136);font-family:Microsoft JhengHei;" href="#rewind">▲回到頂端</a></p>
+
+         <footer>
+            <p><small>409620039李紀嫻期末網站</small></p>
+        </footer>
+    </body>
